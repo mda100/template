@@ -1,2 +1,2 @@
 [console_scripts]
-newstack = template.template:main
+template = template.template:main

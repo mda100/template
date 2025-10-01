@@ -14,4 +14,4 @@ requires-python = ">=3.9"
 dependencies = []
 
 [project.scripts]
-newstack = "template.template:main"
+template = "template.template:main"
