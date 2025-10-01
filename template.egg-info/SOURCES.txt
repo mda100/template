@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+template/__init__.py
+template/__main__.py
+template/template.py
+template.egg-info/PKG-INFO
+template.egg-info/SOURCES.txt
+template.egg-info/dependency_links.txt
+template.egg-info/entry_points.txt
+template.egg-info/top_level.txt

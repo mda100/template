@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "template"
+version = "0.1.0"
+description = "minimal full-stack setup tool (Next, Django, Docker, Terraform, Git)"
+authors = [
+  { name="Martin Adams", email="mdadams10@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+newstack = "template.template:main"

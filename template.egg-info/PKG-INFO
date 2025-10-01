@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: template
+Version: 0.1.0
+Summary: minimal full-stack setup tool (Next, Django, Docker, Terraform, Git)
+Author-email: Martin Adams <mdadams10@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
