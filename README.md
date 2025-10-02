@@ -1,4 +1,4 @@
-creates minimal application framework with Next, Django, Docker, Terraform, Git
+creates minimal boilerplate for application with Next, Django, Docker, Terraform, Git
 
 # Create project
 template <project_name> <django_app_name>
@@ -8,3 +8,4 @@ docker-compose up --build
 
 # Run Django migrations
 docker-compose exec backend python3 manage.py migrate
+
