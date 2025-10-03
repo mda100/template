@@ -19,3 +19,6 @@ python3 -m build
 
 pip3 install --force-reinstall dist/template-0.1.0-py3-none-any.whl
 
+
+# Requirements
+django - (if using venv whl must also be installed in venv)
