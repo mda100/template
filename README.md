@@ -9,3 +9,9 @@ docker-compose up --build
 # Run Django migrations
 docker-compose exec backend python3 manage.py migrate
 
+
+# Build/Rebuild .whl
+pip3 install build
+rm -rf dist build *.egg-info
+python3 -m build
+pip3 install --force-reinstall dist/template-0.1.0-py3-none-any.whl
